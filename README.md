@@ -13,7 +13,7 @@
 
 <br/>
 
-[![Preview](https://img.shields.io/badge/▶_Watch_the_Preview-2E1A47?style=for-the-badge&labelColor=2E1A47&color=D4AF37)](#)
+[![Preview](https://img.shields.io/badge/▶_Watch_the_Preview-2E1A47?style=for-the-badge&labelColor=2E1A47&color=D4AF37)](https://www.youtube.com/watch?v=pZNReq8ELMo)
 [![License](https://img.shields.io/badge/License-GPL_v3-722F37?style=for-the-badge)](LICENSE)
 [![TrinityCore](https://img.shields.io/badge/TrinityCore-3.3.5a-D4AF37?style=for-the-badge&labelColor=2E1A47)](https://www.trinitycore.org/)
 [![AzerothCore](https://img.shields.io/badge/AzerothCore-planned-722F37?style=for-the-badge&labelColor=2E1A47)](https://www.azerothcore.org/)
