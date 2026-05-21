@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60" fill="none">
+  <defs>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#D4AF37" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#F4D03F" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F4D03F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Left line -->
+  <line x1="20" y1="30" x2="340" y2="30" stroke="url(#lineGrad)" stroke-width="1.5"/>
+  <!-- Right line -->
+  <line x1="460" y1="30" x2="780" y2="30" stroke="url(#lineGrad)" stroke-width="1.5"/>
+
+  <!-- Left stars -->
+  <g fill="#D4AF37">
+    <polygon points="120,30 122,24 124,30 130,32 124,34 122,40 120,34 114,32"/>
+    <polygon points="200,30 201.2,26 202.4,30 206.4,31.2 202.4,32.4 201.2,36.4 200,32.4 196,31.2"/>
+    <polygon points="270,30 271.5,25.5 273,30 277.5,31.5 273,33 271.5,37.5 270,33 265.5,31.5"/>
+  </g>
+
+  <!-- Right stars -->
+  <g fill="#D4AF37">
+    <polygon points="530,30 531.5,25.5 533,30 537.5,31.5 533,33 531.5,37.5 530,33 525.5,31.5"/>
+    <polygon points="600,30 601.2,26 602.4,30 606.4,31.2 602.4,32.4 601.2,36.4 600,32.4 596,31.2"/>
+    <polygon points="680,30 682,24 684,30 690,32 684,34 682,40 680,34 674,32"/>
+  </g>
+
+  <!-- Center moon with glow -->
+  <circle cx="400" cy="30" r="22" fill="url(#moonGlow)"/>
+  <!-- Crescent moon: full circle minus offset circle -->
+  <mask id="crescentMask">
+    <rect width="800" height="60" fill="white"/>
+    <circle cx="408" cy="27" r="14" fill="black"/>
+  </mask>
+  <circle cx="400" cy="30" r="14" fill="#F4D03F" mask="url(#crescentMask)"/>
+
+  <!-- Small star near moon -->
+  <polygon points="430,18 431,15 432,18 435,19 432,20 431,23 430,20 427,19" fill="#F4D03F"/>
+  <polygon points="370,42 371,39 372,42 375,43 372,44 371,47 370,44 367,43" fill="#F4D03F"/>
+</svg>

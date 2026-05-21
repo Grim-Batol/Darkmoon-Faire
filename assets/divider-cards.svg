@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 70" fill="none">
+  <defs>
+    <linearGradient id="lineGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#722F37" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#D4AF37" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#722F37" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Decorative lines -->
+  <line x1="20" y1="35" x2="320" y2="35" stroke="url(#lineGrad2)" stroke-width="1.5"/>
+  <line x1="480" y1="35" x2="780" y2="35" stroke="url(#lineGrad2)" stroke-width="1.5"/>
+
+  <!-- Center: three Darkmoon cards fanned -->
+  <g transform="translate(400, 35)">
+    <!-- Left card (rotated) -->
+    <g transform="rotate(-18) translate(-22, -22)">
+      <rect x="0" y="0" width="32" height="44" rx="3" fill="#2E1A47" stroke="#D4AF37" stroke-width="1.2"/>
+      <circle cx="16" cy="22" r="6" fill="none" stroke="#D4AF37" stroke-width="1"/>
+      <circle cx="16" cy="22" r="2" fill="#D4AF37"/>
+    </g>
+    <!-- Center card -->
+    <g transform="translate(-16, -22)">
+      <rect x="0" y="0" width="32" height="44" rx="3" fill="#2E1A47" stroke="#F4D03F" stroke-width="1.5"/>
+      <!-- Eye/sun in middle -->
+      <polygon points="16,12 18,20 26,22 18,24 16,32 14,24 6,22 14,20" fill="#F4D03F"/>
+    </g>
+    <!-- Right card (rotated) -->
+    <g transform="rotate(18) translate(-10, -22)">
+      <rect x="0" y="0" width="32" height="44" rx="3" fill="#2E1A47" stroke="#D4AF37" stroke-width="1.2"/>
+      <circle cx="16" cy="22" r="6" fill="none" stroke="#D4AF37" stroke-width="1"/>
+      <circle cx="16" cy="22" r="2" fill="#D4AF37"/>
+    </g>
+  </g>
+
+  <!-- Side ornaments: small diamonds -->
+  <g fill="#722F37">
+    <polygon points="340,35 348,30 356,35 348,40"/>
+    <polygon points="444,35 452,30 460,35 452,40"/>
+  </g>
+  <g fill="#D4AF37">
+    <polygon points="348,33 350,35 348,37 346,35"/>
+    <polygon points="452,33 454,35 452,37 450,35"/>
+  </g>
+</svg>
