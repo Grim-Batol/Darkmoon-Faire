@@ -1,0 +1,2 @@
+INSERT IGNORE INTO `creature_formations` (`leaderGUID`,`memberGUID`,`dist`,`angle`,`groupAI`,`point_1`,`point_2`) SELECT l.`new_guid`, m.`new_guid`, 5,0,512,0,0 FROM `creature_guid_map` l, `creature_guid_map` m WHERE l.`old_guid` = 290772 AND m.`old_guid` = 290771;
+INSERT IGNORE INTO `creature_formations` (`leaderGUID`,`memberGUID`,`dist`,`angle`,`groupAI`,`point_1`,`point_2`) SELECT l.`new_guid`, m.`new_guid`, 0,0,512,0,0 FROM `creature_guid_map` l, `creature_guid_map` m WHERE l.`old_guid` = 290772 AND m.`old_guid` = 290772;
